@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #2c3e50;   /* Dark Blue-Grey */
+  color: #f1f1f1;
+}
+
+/* Quiz Container */
+.quiz-container {
+  padding: 25px;
+  text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+  margin-bottom: 15px;
+  color: #ffda79; /* Yellow */
+}
+
+/* Quiz */
+#question {
+  font-size:1.8rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#quiz-form label {
+  display: flex;             /* radio + text in a row */
+  align-items: flex-start;   /* align radio to top of text */
+  margin: 10px 0;
+  cursor: pointer;
+  justify-content: flex-start; 
+  width: 400px;              /* fixed width for consistent alignment */
+}
+
+#quiz-form input[type="radio"] {
+  margin-top: 4px;           /* optional: fine-tune vertical alignment */
+  margin-right: 12px;        /* space between radio and text */
+}
+
+#quiz-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* center whole quiz */
+}
+
+
+
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #e67e22;  /* Orange */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: #d35400; /* Darker orange */
+}
+
+#feedback {
+  margin-top: 40px;
+  font-weight: bold;
+  color: #ffda79;
+}
+
+/* Footer Joke Section */
+footer {
+  margin-top: 2px;
+  text-align: center;
+  background: #34495e; /* Darker section */
+  padding: 1px;
+  border-top: 1px solid #555;
+}
+
+#quote {
+  font-style: italic;
+  margin: 15px 0;
+  color: #dcdde1;
+}
+
+.credit {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #aaa;
+}

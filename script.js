@@ -58,7 +58,7 @@ submitBtn.addEventListener("click", (e) => {
     feedbackEl.textContent = " Correct answer!";
     score++;
   } else {
-    feedbackEl.textContent = ' Wrong! Correct answer: ${quizData[quizIndex].answer}';
+    feedbackEl.textContent = ` Wrong! Correct answer: ${quizData[quizIndex].answer}`;
   }
 
   setTimeout(() => {
